@@ -1,0 +1,59 @@
+.mobile {
+	display: block;
+}
+
+.spacer, .fspacer {
+	display: none !important;
+}
+
+.menu {
+	display: none;
+}
+
+.menu li {
+	display: block;
+	list-style-type: none;
+	padding-right: 0;
+	padding-top: 20px;
+	width: 100%;
+	border-top: 1px solid black;
+}
+
+
+#mobilemenu {
+	position: absolute;
+	margin-left: 600px;
+	margin-top: -75px;
+	height: 100px;
+}
+
+#menu {
+	color: #FFFFFF;
+	margin-left: -25px;
+	height: 100%;
+	width: 100%;
+}
+
+#bigbox {
+	margin-top: 25px;
+	background-image: url("https://placekitten.com/g/1000/400") !important;
+}
+
+#smallboxtop {
+	margin-top: 25px;
+}
+
+#smallboxbot {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 10px;
+}
+
+#footer {
+	display: block !important;
+}
+
+#footer li {
+	border: 0;
+}
+

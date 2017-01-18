@@ -1,0 +1,61 @@
+#logo {
+	background-image: url("http://placehold.it/400x100");
+    background-repeat: no-repeat;
+	margin-top: 20px;
+	width: 400px;
+	height: 100px;
+}
+
+#bigbox {
+	background-color: #000000;
+	border-radius: 20px;
+	background-image: url("https://placekitten.com/g/600/400");
+	background-position: center;
+    background-repeat: no-repeat;
+	height: 400px;
+}
+
+#smallboxtop {
+	background-color: #D3D3D3;
+	border-radius: 20px;
+	color: #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+}
+
+#smallboxtop a {
+	color: #FFFFFF;
+}	
+
+#smallboxbot {
+	background-color: #FFA500;
+	border-radius: 20px;
+	color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+}
+
+.mobile {
+	display: none;
+}
+
+.selected, .spacer {
+	color: #FFA500 !important;
+}
+
+.menu {
+	color: #bdbdbd;
+}
+
+.menu li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+.menu a {
+	color: #bdbdbd;
+	text-decoration: none;
+}
