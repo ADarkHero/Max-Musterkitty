@@ -1,61 +1,146 @@
-#logo {
-	background-image: url("http://placehold.it/400x100");
-    background-repeat: no-repeat;
-	margin-top: 20px;
-	width: 400px;
-	height: 100px;
+/* Andere Schriftart und größere Schrift */
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.2em;
+	overflow-x: hidden;
 }
 
-#bigbox {
-	background-color: #000000;
-	border-radius: 20px;
-	background-image: url("https://placekitten.com/g/600/400");
-	background-position: center;
-    background-repeat: no-repeat;
-	height: 400px;
+/* Große, graue Überschrift */
+h1 {
+	color: #bdbdbd;
+	font-size: 1.5em;
 }
 
-#smallboxtop {
-	background-color: #D3D3D3;
-	border-radius: 20px;
-	color: #FFFFFF;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 50px;
+/* Kleinere, orange Überschrift */
+h2 {
+	color: #FFA500;
+	font-size: 1.2em;
+	font-weight: bold;
 }
 
-#smallboxtop a {
-	color: #FFFFFF;
-}	
-
-#smallboxbot {
-	background-color: #FFA500;
-	border-radius: 20px;
-	color: #FFFFFF;
-	padding-top: 30px;
-	padding-bottom: 5px;
-	padding-left: 50px;
+/* Kleine, orange Überschrift */
+h3 {
+	margin-top: 50px;
+	color: #FFA500;
+	font-size: 1em;
 }
 
+
+
+
+/* Blendet mobile Elemente aus (werden in portrait.css wieder eingeblendet) */
 .mobile {
 	display: none;
 }
 
+/* Orangener Trenner (Slash/Schrägstrich) */
 .selected, .spacer {
 	color: #FFA500 !important;
 }
 
+/* Graues Menü */
 .menu {
 	color: #bdbdbd;
+	font-weight: bold;
 }
 
+/* Menü wird in einer Zeile dargestellt mit einem Abstand zwischen den Elementen */
 .menu li {
 	display: inline;
 	list-style-type: none;
 	padding-right: 20px;
 }
 
+/* Keine Unterstreichung bei Links */
 .menu a {
 	color: #bdbdbd;
 	text-decoration: none;
+}
+
+/* Schiebt das Logo des Footers über die Trennlinie */
+.footerlogo {
+	margin-top: -50px !important;
+}
+
+
+
+
+/* Zentriert Page in der Mitte, bei größeren Displays */
+#centering {
+	background-color: #EEEEEE;
+	margin: auto;
+}
+
+/* Das Logo wird 2x über eine DIV-Box eingebunden */
+#logo {
+	background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+	margin-top: 20px;
+	width: 400px;
+	height: 100px;
+}
+
+/* Große Box mit Hintergrundbild */
+#bigbox {
+	background-color: #000000;
+	border-radius: 20px;
+	background-image: url("../img/cat.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	height: 400px;
+}
+
+/* Kleine Box für Informationen (grauer Hintergrund) */
+#smallboxtop {
+	background-color: #D3D3D3;
+	border-radius: 20px;
+	color: #FFFFFF;
+	height: 190px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+}
+
+	#smallboxtop a {
+		color: #FFFFFF;
+	}	
+
+	#smallboxtop p {
+		margin-bottom: -10px;
+	}
+	
+
+/* Kleine Box für Informationen (oranger Hintergrund) */
+#smallboxbot {
+	background-color: #FFA500;
+	border-radius: 20px;
+	color: #FFFFFF;
+	height: 165px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+}
+
+/* Erzeugt (leicht abgerundete) orangene Linie vor Textcontent */
+#contentline{
+	background: #FFA500; 
+	border-radius: 3px;
+	height: 150px; 
+	width: 10px;
+}
+
+/* Eigentlicher Text/Inhalt der Seite */
+#content {
+	margin-bottom: 150px;
+	min-height: 300px;
+}
+
+/* Footer mit kleiner grauer Trennlinie */
+#footer {
+	border-top: 1px solid #D3D3D3;
+	color: #bdbdbd;
+	width: 100%;
+	margin-top: 25px;
+	position: relative;
+	font-weight: normal !important;
 }

@@ -1,32 +1,67 @@
+body {
+	background-color: #EEEEEE;			/* Grauer Hintergrund */
+	overflow-x: hidden;
+}
+
 .mobile {
-	display: block;
+	display: block;						/* Mobile-only Elemente sollen dargestellt werden */
 }
 
 .spacer, .fspacer {
-	display: none !important;
+	display: none !important;			/* Abstandhalter zwischen Menülinks und im Footer sollen nicht angezeigt werden */				
 }
 
 .menu {
-	display: none;
+	display: none;						/* Das Menü wird standardmäßig als Button dargestellt -> Das Desktopmenü wird ausgeblendet */
 }
 
+/* Mobiles Menü */
 .menu li {
 	display: block;
 	list-style-type: none;
+	padding-left: 25px;
 	padding-right: 0;
 	padding-top: 20px;
+	height: 50px;
 	width: 100%;
-	border-top: 1px solid black;
+	border-top: 1px solid #bdbdbd;
+}
+
+.borderbottom {
+	border-bottom: 1px solid #bdbdbd;	/* Damit unter dem letzten Menüpunkt auch ein Strich dargestellt wird */
 }
 
 
+/* Das Mobile Menü nimmt die ganze Seite (abgesehen vom öffnen/schließen Button und dem Logo oben) ein */
 #mobilemenu {
 	position: absolute;
-	margin-left: 600px;
-	margin-top: -75px;
 	height: 100px;
+	width: 100%;
+	margin-top: -100px;
+	text-align: right;
 }
 
+	#mobilemenu img {
+		height: 100px;
+		margin-right: 20px;
+		border-radius: 10px;
+	}
+	
+
+#smallmenu {
+	width: 100%;
+	text-align: right;
+	margin-bottom: 50px;
+}
+
+	#smallmenu li {
+		display: inline;
+		list-style-type: none;
+		padding-right: 20px;
+		border: 0;
+	}	
+	
+	
 #menu {
 	color: #FFFFFF;
 	margin-left: -25px;
@@ -36,7 +71,6 @@
 
 #bigbox {
 	margin-top: 25px;
-	background-image: url("https://placekitten.com/g/1000/400") !important;
 }
 
 #smallboxtop {
@@ -49,11 +83,20 @@
 	padding-top: 10px;
 }
 
+#contentline {
+	margin-left: 20px;
+}
+
+#content {
+	margin-left: 70px;
+	margin-top: -170px;
+}
+
 #footer {
 	display: block !important;
 }
 
-#footer li {
-	border: 0;
-}
-
+	#footer li {
+		border: 0;
+		padding: 0;
+	}

@@ -1,16 +1,15 @@
 body {
-	overflow: visible !important;
+	overflow-y: visible !important; 	/* Kleiner Bugfix, damit das Menü auf der normalen Seite immer sichtbar bleibt, auch wenn man es auf der Mobilen ausblendet */
+	margin: auto;
 }
 
 #centering {
-	width: 1180px;
-	margin: auto;
+	width: 1160px;					/* Seite soll für 1280px Breite obtimiert sein (1160 Breite + 50 Padding links + 50 Padding rechts + 20 für eventuelle Scrollbar) */
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-top: -10px;
-	background-color: #EEEEEE;
 }
 
 #header {
@@ -19,50 +18,48 @@ body {
 
 #smallmenu {
 	margin-top: -100px;
-	margin-left: 500px;
+	margin-left: 670px;
 	width: 500px;
-	text-align: right;
-	font-size: 0.75em;
+	text-align: right;				/* Menüs werden rechts zentriert */
+	font-size: 0.75em;				/* Kleines Menü -> Kleinerer Text */
 }
 
 #menu {
-	margin-left: 500px;
-	width: 500px;
+	display: block !important; 		/* Kleiner Bugfix, damit das Menü auf der normalen Seite immer sichtbar bleibt, auch wenn man es auf der Mobilen ausblendet */
+	margin-left: 370px;
+	width: 800px;
 	text-align: right;
-	font-size: 1.25em;
+	font-size: 1.25em;				/* Hauptmenü -> Größerer Text */
 }
 
 #bigbox {
-	width: 600px;
+	width: 700px;
 }
 
 #smallboxtop {
-	width: 325px;
-	height: 190px;
+	width: 375px;
 	margin-top: -400px;
-	margin-left: 650px;
+	margin-left: 730px;
 }
 
-#smallboxtop a {
-	color: #FFFFFF;
-}	
+	#smallboxtop a {
+		color: #FFFFFF;
+	}	
+	
 
 #smallboxbot {
 	margin-top: 10px;
-	width: 325px;
-	height: 160px;
-	margin-left: 650px;
+	width: 375px;
+	margin-left: 730px;
+}
+
+#contentline {
+	margin-top: 50px;
+	margin-left: 100px;
 }
 
 #content {
-	margin-top: 2.5%;
-	width: 100%;
-}
-
-#footer {
-	border-top: 1px solid #000000;
-	color: #bdbdbd;
-	width: 100%;
-	margin-top: 25px;
-	position: relative;
+	margin-left: 250px;
+	margin-top: -165px;
+	width: 800px;
 }
