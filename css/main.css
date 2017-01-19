@@ -7,13 +7,13 @@ body {
 
 /* Große, graue Überschrift */
 h1 {
-	color: #bdbdbd;
+	color: #a7a7a7;
 	font-size: 1.5em;
 }
 
 /* Kleinere, orange Überschrift */
 h2 {
-	color: #FFA500;
+	color: #DF6301;
 	font-size: 1.2em;
 	font-weight: bold;
 }
@@ -21,7 +21,7 @@ h2 {
 /* Kleine, orange Überschrift */
 h3 {
 	margin-top: 50px;
-	color: #FFA500;
+	color: #DF6301;
 	font-size: 1em;
 }
 
@@ -35,12 +35,12 @@ h3 {
 
 /* Orangener Trenner (Slash/Schrägstrich) */
 .selected, .spacer {
-	color: #FFA500 !important;
+	color: #DF6301 !important;
 }
 
 /* Graues Menü */
 .menu {
-	color: #bdbdbd;
+	color: #a7a7a7;
 	font-weight: bold;
 }
 
@@ -53,7 +53,7 @@ h3 {
 
 /* Keine Unterstreichung bei Links */
 .menu a {
-	color: #bdbdbd;
+	color: #a7a7a7;
 	text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ h3 {
 
 /* Zentriert Page in der Mitte, bei größeren Displays */
 #centering {
-	background-color: #EEEEEE;
+	background-color: #F0F0F0;
 	margin: auto;
 }
 
@@ -92,7 +92,7 @@ h3 {
 
 /* Kleine Box für Informationen (grauer Hintergrund) */
 #smallboxtop {
-	background-color: #D3D3D3;
+	background-color: #888888;
 	border-radius: 20px;
 	color: #FFFFFF;
 	height: 190px;
@@ -112,7 +112,7 @@ h3 {
 
 /* Kleine Box für Informationen (oranger Hintergrund) */
 #smallboxbot {
-	background-color: #FFA500;
+	background-color: #DF6301;
 	border-radius: 20px;
 	color: #FFFFFF;
 	height: 165px;
@@ -123,7 +123,7 @@ h3 {
 
 /* Erzeugt (leicht abgerundete) orangene Linie vor Textcontent */
 #contentline{
-	background: #FFA500; 
+	background: #DF6301; 
 	border-radius: 3px;
 	height: 150px; 
 	width: 10px;
@@ -137,8 +137,8 @@ h3 {
 
 /* Footer mit kleiner grauer Trennlinie */
 #footer {
-	border-top: 1px solid #D3D3D3;
-	color: #bdbdbd;
+	border-top: 1px solid #888888;
+	color: #a7a7a7;
 	width: 100%;
 	margin-top: 25px;
 	position: relative;
